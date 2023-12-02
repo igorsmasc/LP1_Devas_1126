@@ -13,6 +13,7 @@ public class PT3_Datatypes {
         // Outras - Golang (Google)
 
         // Tipos primitivos: Tipos de dados fundamentais
+        var teste = 1.0;
 
         // Oito tipos primitivos
 
@@ -23,8 +24,13 @@ public class PT3_Datatypes {
         long numLong = 4L; // 8 bytes | -9.223.372.036.854.775.808 a 9.223.372.036.854.775.807
         long numLong2 = 40_000_000_000L;
 
+        int idade; // padrão
+        long valoresMaiores;
+
         System.out.println(numLong);
         System.out.println(numLong2);
+
+        String numPedido = "12399123456"; // Regex
 
         // Números de ponto flutuante
         float numFloat = 1.5111111f; // 4 bytes | 6-7 dígitos decimais significativos
@@ -46,13 +52,11 @@ public class PT3_Datatypes {
         boolean typeBoolean2 = false;
 
         char umLetraOuUmChar = 'a';
-//        char umLetra2 = "a";
-//        char umLetra3 = 'aa';
 
-        System.out.println('A' - 0); // Desafio com numero dos chars
-
-        // NÃO É UM TIPO PRIMITIVO
-        String nome = "Um frase \"aqui\"";
+        // STRING NÃO É UM TIPO PRIMITIVO
+        String nome = "Um frase aqui";
+        String nome2 = "Um frase \"aqui\"";
         System.out.println(nome);
+        System.out.printf(nome2);
     }
 }
