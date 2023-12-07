@@ -58,5 +58,12 @@ public class PT3_Datatypes {
         String nome2 = "Um frase \"aqui\"";
         System.out.println(nome);
         System.out.printf(nome2);
+
+        double valor = 12.3;
+        valor = 10;
+
+        final double PI = 3.14;
+
+        final double VALOR_DE_PI = 3.14;
     }
 }

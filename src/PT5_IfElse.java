@@ -7,6 +7,7 @@ public class PT5_IfElse {
         String nome = "Grazi";
         boolean filhaDoDiretor = true;
         String teste = "";
+
         if(nota >= 7 || filhaDoDiretor) {
             System.out.println("Aprovada!");
         } else {
